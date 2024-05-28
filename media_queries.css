@@ -87,14 +87,53 @@
     flex-direction: column;
 }
 } */
-
+@media only screen and (max-width: 1126px){
+    .navbar .nav-links{
+        display: none;
+    }
+    .menu-ham-sec
+    {
+        display: flex;
+        background-color: #111111ef;
+        padding: 2%;
+        justify-content: end;
+        width: 100%;
+        
+    }
+    .hamburger{
+        padding-top: 13px;
+        cursor: pointer;
+    }
+    .hamburger div{
+        width: 30px;
+        height: 3px;
+        margin: 5px 0;
+        background-color: white;
+    }
+   
+       .discount
+       {
+           width: 100%;
+           display: none;
+       }
+       .contain{
+            background-color: black;
+           border-radius: 15px;
+           width: fit-content;
+           padding: 1% 2%;
+       }
+       .contain p{
+           color: white;
+           display: block;
+           margin-right: 1ch;
+           margin-top: 10px;
+       }
+}
 
 @media only screen and (max-width: 1100px){
     
     
-    .navbar .nav-links{
-        display: none;
-    }
+    
     .discount{
         background-color: rgba(0, 0, 0, 0.575);
         padding: 7px;
@@ -107,6 +146,9 @@
     .footer-subscribe {
         flex-direction: column;
         gap: 40px;
+    }
+    .footer-links{
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .collection {
@@ -176,7 +218,9 @@
     .author .span p{
         white-space: nowrap;
     }
-
+    .detail_collection h1{
+        font-size: 10px;
+    }
 
 
 }
@@ -188,6 +232,7 @@
     .footer-links {
         flex-direction: column;
     }
+   
     .category__container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -204,13 +249,14 @@
 @media only screen and (max-width: 700px){
     .trending__navbar {
         display: flex;
-        border: 2px solid black;
+
         flex-direction: column;
         
     }
+    
     .trending__navlist ul{
         margin-top: -10px;
-        border: 2px solid black;
+
     }
    
 }
@@ -229,21 +275,33 @@
    .text-container2 h1{
     font-size: 30px;
    }
-   .discount{
-    width: 100%;
+   
+   .trending__navbar h1{
+    width: 60%;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+   }
+   .trending__navlist{
+    justify-content: flex-start;
+
    }
     .benefits{
         grid-template-columns: repeat(1, 1fr);
-        padding-left: 100px;
+        margin-top: 30px;
         
         
     }
+    .ben_1, .ben_2, .ben_3, .ben_4 {
+        width: 40%;
+        margin: auto;
+    }
+    
     .subscribe-form {
         display: flex;
         flex-direction: column;
         width:100% ;
         margin-top: 10px;
-        border:  2px solid red;
+
     
     }
     
@@ -261,60 +319,37 @@
     }   
     .footer-subscribe{
         justify-content: flex-start;
-        border:  2px solid red;
-    }
-    .news{
-        border:  2px solid red;
-        text-align: left;
-
-    }
-    .subscribe-form input{
-        width: 100%;
-        border:  2px solid red;
-        padding-right: 70px;
         
     }
+    .footer-links{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .news{
+    
+        text-align: left;
+        margin-left: -70px;
+
+    }
+   .subscribe-form input{
+     
+     margin-right: 170px;
+   }
+   .footer-social{
+    margin-left: -17rem;
+    
+   }
     .container {
         width: 100%;
         margin: 0 auto;
     }  
     
-    .menu-ham-sec
-    {
-        display: flex;
-        background-color: #111111ef;
-        padding: 2%;
-        justify-content: end;
-        width: 100%;
-        
-    }
-    .discount
-    {
-        width: 100%;
-        display: none;
-    }
-    .contain{
-         background-color: black;
-        border-radius: 15px;
-        width: fit-content;
-        padding: 0% 2%;
-    }
-    .contain p{
-        color: white;
+    .discount {
         display: block;
-        margin-right: 1ch;
     }
+   
     
-    .hamburger{
-        padding-top: 13px;
-        cursor: pointer;
-    }
-    .hamburger div{
-        width: 30px;
-        height: 3px;
-        margin: 5px 0;
-        background-color: white;
-    }
+   
     .top-bar-right{
         display: none;
     }
@@ -329,4 +364,5 @@
         margin-left: -90px;
         line-height: 1.5;
     }
+    
 }

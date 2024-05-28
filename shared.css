@@ -256,6 +256,8 @@ footer {
     flex: 1;
     justify-content: space-around;
     gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 
@@ -265,6 +267,7 @@ footer {
     justify-content: space-between;
     width: 100%;
     gap: 30px;
+   
 
 }
 
