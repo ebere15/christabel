@@ -492,3 +492,11 @@
     }
        
 }
+@media only screen and (max-width: 471px){
+    .nav-icons{
+        display: none;
+       }
+       .trending__navbar h1{
+        font-size: 22px;
+       }
+}
