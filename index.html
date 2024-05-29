@@ -75,7 +75,7 @@
                     <div class="nav-icons">
                         <a href="#"><i class="fas fa-search"></i></a>
                         <a href="#"><i class="fas fa-user"></i></a>
-                        <a href="#"><i class="fas fa-shopping-cart"></i><span class="cart-badge">1</span></a>
+                        <a class="cart" href="#"><i class="fas fa-shopping-cart"></i><sup class="badge">1</sup></a>
                     </div>
                 </nav>
                 </div>
@@ -303,14 +303,17 @@
                                   
                                     <div class="Testimonial_texts">
                                         <h1>Customer Testimonial</h1>
-                                        <p>Everybody is different, which is why we offer styles for every body</p>
-                                        <p>Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos</p>
-                                        <p>facilis neque nulla earum</p>
+                                        
+                                         <p>Everybody is different, which is why we offer styles for every body</p>
+                                         <p>Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos</p>
+                                         <p>facilis neque nulla earum</p>
+                                        
+                                       
                                         <div class="author">
                                             <img src="./images/founder-img.png" alt="">
                                             <div class="span">
                                                 <p>Petey Cruiser</p>
-                                                <span class="diff">Designer at Colorlib</span>
+                                                <p class="diff">Designer at Colorlib</p>
                                             </div>
                                             
                                         </div>
@@ -324,7 +327,7 @@
                                             <img src="./images/founder-img.png" alt="">
                                             <div class="span">
                                                 <p>Petey Cruiser</p>
-                                                <span class="diff">Designer at Colorlib</span>
+                                                <p class="diff">Designer at Colorlib</p>
                                             </div>
                                             
                                         </div>
@@ -338,7 +341,7 @@
                                             <img src="./images/founder-img.png" alt="">
                                             <div class="span">
                                                 <p>Petey Cruiser</p>
-                                                <span class="diff">Designer at Colorlib</span>
+                                                <p class="diff">Designer at Colorlib</p>
                                             </div>
                                             
                                         </div>
@@ -518,17 +521,17 @@
                             <img src="./images/secure.png" alt="">
                             <h2>Secure Payment</h2>
                             <p>Free delivery on all orders</p>
-                         </div>
-                         <div class="ben_3">
+                        </div>
+                        <div class="ben_3">
                             <img src="./images/money.jpg" alt="">
-                            <h2>Fast & Free Delivery</h2>
+                            <h2>Money Back Guarantee</h2>
                             <p>Free delivery on all orders</p>
-                         </div>
-                         <div class="ben_4">
+                        </div>
+                        <div class="ben_4">
                             <img src="./images/online.png" alt="">
-                            <h2>Fast & Free Delivery</h2>
+                            <h2>Online Support</h2>
                             <p>Free delivery on all orders</p>
-                         </div>
+                        </div>
 
                     </div>
 
@@ -538,24 +541,26 @@
         <footer>
 
                 <div class="footer-container container">
-                        <div class="footer-subscribe ">
-                            <div class="news">
-                             <h2>Subscribe Newsletter</h2>
-                             <p>Subscribe newsletter to get 5% on all products.</p>
-                            </div>
-                            
-                            <div class="subscribe-form">
-                                <input type="email" placeholder="Enter your email">
-                                <button type="submit">Subscribe</button>
-                            </div>
-                            <div class="footer-social">
-                                <a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #6897e8;"></i></a>
-                                <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #6897e8;"></i></a>
-                                <a href="#"><i class="fa-brands fa-youtube fa-xl" style="color:  #6897e8;"></i></a>
-                            </div>
-    
+                    <div class="top-footer">
+                
+                        <div class="left-cont">
+                          <h3>Subscribe Newsletter</h3>
+                          <p>Subscribe newsletter to get 5% on all products.</p>
+                       </div>
+                       <div class="mid-cont">
+                         <input type="email" placeholder="Enter your email">
+                         <button type="submit">Subscribe</button>
                         </div>
-                       
+
+                       <div class="end-cont">
+                         <a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #6897e8;"></i></a>
+                         <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #6897e8;"></i></a>
+                         <a href="#"><i class="fa-brands fa-youtube fa-xl" style="color:  #6897e8;"></i></a>
+                       </div>
+                    </div>
+        
+
+                        
                         <div class="collection">
                              <div class="footer-logo">
                                  <a href=""><img src="./images/logo2_footer.png" alt="Capital Shop"></a>
@@ -610,6 +615,16 @@
                        
                 </div>
         </footer>
+
+
+        
+
+
+
+
+
+
+
                       <!-- Initialize Swiper -->
                       <script>
                         const swiperEl = document.querySelector('swiper-container');

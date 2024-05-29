@@ -473,7 +473,6 @@ body{
   }
   .Testimonial_texts p{
     font-weight: 400;
-    
     font-size: 20px;
     color: rgb(33, 37, 41);
     font-family: 'Jost';
@@ -628,13 +627,15 @@ body{
     display: flex;
     gap: 6rem;
     justify-content: center;
+    padding: 60px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     
 }
 .ben_1{
-    border-right: 1px solid black;
+    border-right: 1px solid rgba(0, 0, 0, 0.178);
     width: 100%;
+    padding-right: 2rem;
     justify-content: center;
 }
 .ben_1 img{
@@ -652,7 +653,7 @@ body{
     font-weight: 500;
 }
 .ben_2 {
-    border-right: 1px solid black;
+    border-right: 1px solid rgba(0, 0, 0, 0.178);
     width: 100%;
     justify-content: center;
 }
@@ -670,8 +671,9 @@ body{
     font-weight: 500;
 }
 .ben_3 {
-    border-right: 1px solid black;
+    border-right: 1px solid rgba(0, 0, 0, 0.178);
     width:100%;
+    padding-right: 2rem;
     justify-content: center;
 }
 .ben_3 img{
